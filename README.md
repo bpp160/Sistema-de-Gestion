@@ -8,8 +8,10 @@ ya esta, falta completarlo nomas
   °id, nombre,email,contraseña(esto se debe incriptar), fecha de registro
 
 -ms-propiedades: Catálogo de los inmuebles. Maneja características (metros cuadrados, habitaciones) y ubicación (por ejemplo, filtrando por comunas dentro de la Región Metropolitana).
+
 ya esta, falta completarlo nomas
-  -id, dirrecion, precio, habitacion, baños, metros_cuadrados y el propetario(la id del usuario)
+
+  °id, dirrecion, precio, habitacion, baños, metros_cuadrados y el propetario(la id del usuario)
 
 -ms-postulaciones: Permite a los arrendatarios subir sus documentos (liquidaciones de sueldo, certificados) y postular a una propiedad específica.
 
