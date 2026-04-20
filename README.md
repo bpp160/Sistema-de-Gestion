@@ -5,7 +5,9 @@ Microservicios:
 
 ya esta, falta completarlo nomas
 
-  °id, nombre,email,contraseña(esto se debe incriptar), fecha de registro
+  °id, nombre, email, contraseña(esto se debe incriptar), fecha de registro
+
+  Los roles y gestion de perfiles se hara aparte 
 
 -ms-propiedades: Catálogo de los inmuebles. Maneja características (metros cuadrados, habitaciones) y ubicación (por ejemplo, filtrando por comunas dentro de la Región Metropolitana).
 
