@@ -14,8 +14,10 @@ ya esta, falta completarlo nomas
   °id, dirrecion, precio, habitacion, baños, metros_cuadrados y el propetario(la id del usuario)
 
 -ms-postulaciones: Permite a los arrendatarios subir sus documentos (liquidaciones de sueldo, certificados) y postular a una propiedad específica.
+ya esta, falta completarlo nomas:
 
 -ms-evaluacion: Lógica de negocio pura. Cruza los datos de ingresos del arrendatario con el valor de la propiedad para determinar si es un candidato apto o riesgoso.
+ya esta, falta completarlo nomas:
 
 -ms-contratos: Gestiona el ciclo de vida del arriendo. Fechas de inicio, término, renovaciones y montos acordados.
 
