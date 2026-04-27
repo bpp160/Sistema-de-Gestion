@@ -2,7 +2,7 @@
 
 Microservicios:
 
-listo
+listo usuario y seguridad
 
 1.-ms-usuarios: El "directorio". Guarda la información blanda y pública del usuario (nombre, apellido, teléfono, dirección de envío, avatar). 
 
@@ -23,7 +23,5 @@ listo
 9.-ms-seguimiento: Tracking del estado del pedido.
 
 10.-ms-reportes: Analítica para el administrador.
-
-listo
 
 11.-ms-seguridad: El "guardia". Se encarga exclusivamente de las credenciales (email y contraseña), aplicar el encriptado BCrypt, manejar los roles (Vendedor, Cliente, Admin) y emitir el token JWT.
