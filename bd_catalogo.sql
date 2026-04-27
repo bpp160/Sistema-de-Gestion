@@ -27,8 +27,8 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `bd_catalogo`
 --
 
-CREATE TABLE `bd_catalogo` (
-  `ID_CATALOGO` int(11) NOT NULL
+CREATE TABLE `CATALOGO` (
+  `ID_CATALOGO` int(11) PRIMARY KEY
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 COMMIT;
 
