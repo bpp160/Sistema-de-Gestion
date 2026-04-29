@@ -2,7 +2,7 @@
 
 Microservicios:
 
-listo usuario, seguridad y notificaciones
+listo usuario,reportes, seguridad y notificaciones
 
 1.-ms-usuarios: El "directorio". Guarda la información blanda y pública del usuario (nombre, apellido, teléfono, dirección de envío, avatar). 
 
