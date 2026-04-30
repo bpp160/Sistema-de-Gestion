@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-04-2026 a las 16:07:32
+-- Tiempo de generación: 30-04-2026 a las 03:30:16
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -24,11 +24,15 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `seguimiento`
+-- Estructura de tabla para la tabla `tracking`
 --
 
-CREATE TABLE `seguimiento` (
-  `ID_SEGUIMI` int(11) NOT NULL
+CREATE TABLE `tracking` (
+  `id_tracking` bigint(20) NOT NULL,
+  `envio_id` bigint(20) NOT NULL,
+  `estado` varchar(100) DEFAULT NULL,
+  `ubicacion` varchar(150) DEFAULT NULL,
+  `fecha` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -36,10 +40,20 @@ CREATE TABLE `seguimiento` (
 --
 
 --
--- Indices de la tabla `seguimiento`
+-- Indices de la tabla `tracking`
 --
-ALTER TABLE `seguimiento`
-  ADD PRIMARY KEY (`ID_SEGUIMI`);
+ALTER TABLE `tracking`
+  ADD PRIMARY KEY (`id_tracking`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `tracking`
+--
+ALTER TABLE `tracking`
+  MODIFY `id_tracking` bigint(20) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
