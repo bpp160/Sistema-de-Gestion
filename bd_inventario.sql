@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-04-2026 a las 15:28:34
+-- Tiempo de generación: 30-04-2026 a las 03:01:47
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -28,7 +28,12 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `inventario` (
-  `ID_INVENTARIO` int(11) NOT NULL
+  `id_inventario` bigint(20) NOT NULL,
+  `producto_id` bigint(20) NOT NULL,
+  `stock` int(11) NOT NULL,
+  `stock_minimo` int(11) DEFAULT 0,
+  `ubicacion` varchar(100) DEFAULT NULL,
+  `fecha_actualizacion` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -39,7 +44,17 @@ CREATE TABLE `inventario` (
 -- Indices de la tabla `inventario`
 --
 ALTER TABLE `inventario`
-  ADD PRIMARY KEY (`ID_INVENTARIO`);
+  ADD PRIMARY KEY (`id_inventario`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `inventario`
+--
+ALTER TABLE `inventario`
+  MODIFY `id_inventario` bigint(20) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
