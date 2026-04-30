@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-04-2026 a las 15:54:08
+-- Tiempo de generación: 30-04-2026 a las 03:17:20
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -28,7 +28,12 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `pago` (
-  `ID_PAGO` int(11) NOT NULL
+  `id_pago` bigint(20) NOT NULL,
+  `pedido_id` bigint(20) NOT NULL,
+  `monto` decimal(10,2) NOT NULL,
+  `metodo_pago` varchar(50) DEFAULT NULL,
+  `estado` varchar(50) DEFAULT 'pendiente',
+  `fecha_pago` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -39,7 +44,17 @@ CREATE TABLE `pago` (
 -- Indices de la tabla `pago`
 --
 ALTER TABLE `pago`
-  ADD PRIMARY KEY (`ID_PAGO`);
+  ADD PRIMARY KEY (`id_pago`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `pago`
+--
+ALTER TABLE `pago`
+  MODIFY `id_pago` bigint(20) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
