@@ -16,7 +16,7 @@ listo usuario, reportes, seguimiento, seguridad y notificaciones
 
 6.-ms-logistica: Gestión de entregas o trámites legales.
 
-7.-s-pedidos: Generación y gestión de órdenes de venta.
+7.-ms-pedidos: Generación y gestión de órdenes de venta.
 
 8.-ms-promociones: Gestión de descuentos y ofertas.
 
