@@ -2,7 +2,7 @@
 
 Microservicios:
 
-listo usuario, reportes, seguimiento, seguridad, notificaciones, pagos
+listo usuario, reportes, seguimiento, notificaciones, pagos, logistica, seguridad
 
 1.-ms-usuarios: El "directorio". Guarda la información blanda y pública del usuario (nombre, apellido, teléfono, dirección de envío, avatar). 
 
@@ -16,7 +16,7 @@ listo usuario, reportes, seguimiento, seguridad, notificaciones, pagos
 
 6.-ms-logistica: Gestión de entregas o trámites legales.
 
-7.-ms-pedidos: Generación y gestión de órdenes de venta.
+7.ms-seguridad: El "guardia". Se encarga exclusivamente de las credenciales (email y contraseña), aplicar el encriptado BCrypt, manejar los roles (Vendedor, Cliente, Admin) y emitir el token JWT.
 
 8.-ms-promociones: Gestión de descuentos y ofertas.
 
@@ -24,4 +24,4 @@ listo usuario, reportes, seguimiento, seguridad, notificaciones, pagos
 
 10.-ms-catalogo: Información de productos/propiedades (sin lógica de stock).
 
-11.-ms-seguridad: El "guardia". Se encarga exclusivamente de las credenciales (email y contraseña), aplicar el encriptado BCrypt, manejar los roles (Vendedor, Cliente, Admin) y emitir el token JWT.
+11.--ms-pedidos: Generación y gestión de órdenes de venta.
