@@ -12,7 +12,7 @@ listo usuario, reportes, seguimiento, seguridad y notificaciones
 
 4.-ms-notificaciones: Envío de alertas (correos/mensajes).
 
-5.-s-pagos: Procesamiento y validación financiera.
+5.-ms-pagos: Procesamiento y validación financiera.
 
 6.-ms-logistica: Gestión de entregas o trámites legales.
 
