@@ -23,3 +23,6 @@ Microservicios:
 10.-ms-catalogo: Información de productos/propiedades (sin lógica de stock).
 
 11.--ms-pedidos: Generación y gestión de órdenes de venta.
+
+VIDEO DE PROYECTO SISTEMA GESTION PROPIEDADES:
+https://drive.google.com/file/d/1qFel2TqzFmHlOSR4uwMjM6OZxOgh28dK/view?usp=sharing
