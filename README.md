@@ -26,3 +26,6 @@ Microservicios:
 
 VIDEO DE PROYECTO SISTEMA GESTION PROPIEDADES:
 https://drive.google.com/file/d/1qFel2TqzFmHlOSR4uwMjM6OZxOgh28dK/view?usp=sharing
+
+Lo que se hizo fue ingresar los problemas que tuvimos y agregar los comandos @Tag, @Operation y @ApiResponses
+despues probamos que todo esta fuincionando correctamente todos los ms y conectarlos para que sea un ms
